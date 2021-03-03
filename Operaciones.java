@@ -1,11 +1,11 @@
 package Tema1;
 
 public class Operaciones {
-	private int to=0;
+	private float to=0;
 	private String to1;
 	
 	
-	public Operaciones(int x,String op) {
+	public Operaciones(float x,String op) {
 		if(op.equals("sum")) {
 			to=x+4;
 			to1="+4";
@@ -24,10 +24,10 @@ public class Operaciones {
 		}	
 	}
 
-	public int getto() {
+	public float getto() {
 		return to;
 	}
-	public void setto(int to) {
+	public void setto(float to) {
 		this.to=to;
 	}
 	public String getto1() {
