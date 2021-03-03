@@ -3,7 +3,7 @@ package Tema1;
 public class Entrega1 {
 	public static void main (String[] prin) {
 		String [] op = {"sum","res","mul","div"};
-		int x=4;
+		float x=4;
 		
 		for(int i=0;i<4;i++){
 			Operaciones res= new Operaciones(x,op[i]);	
